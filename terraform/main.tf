@@ -2,9 +2,9 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "sudheeshkrishna@cloud-kinetics.com"
-    AccountName               = "aft-landing-new"
-    ManagedOrganizationalUnit = "Management"
+    AccountEmail              = "praveen.soundararajan@cloud-kinetics.com"
+    AccountName               = "aft-landing-dev"
+    ManagedOrganizationalUnit = "Security"
     SSOUserEmail              = "archana@cloud-kinetics.com"
     SSOUserFirstName          = "Archana"
     SSOUserLastName           = "Sounder"
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "aft-landing-new"
+  account_customizations_name = "aft-landing-dev"
 }
