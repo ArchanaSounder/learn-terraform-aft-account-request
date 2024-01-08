@@ -3,11 +3,11 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "sudheeshkrishna@cloud-kinetics.com"
-    AccountName               = "sandbox-aft"
+    AccountName               = "aft-landing-new"
     ManagedOrganizationalUnit = "Management"
     SSOUserEmail              = "archana@cloud-kinetics.com"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    SSOUserFirstName          = "Archana"
+    SSOUserLastName           = "Sounder"
   }
 
   account_tags = {
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "aft-landing-new"
 }
