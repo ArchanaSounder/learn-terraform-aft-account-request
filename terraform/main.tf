@@ -4,7 +4,7 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "praveen.soundararajan@cloud-kinetics.com"
     AccountName               = "aft-landing-dev"
-    ManagedOrganizationalUnit = "Security"
+    ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "archana@cloud-kinetics.com"
     SSOUserFirstName          = "Archana"
     SSOUserLastName           = "Sounder"
